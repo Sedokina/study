@@ -1,4 +1,4 @@
-EMV (Act_j) (Expected monetary value) - ожидаемая денежная оценка (Средняя ожидаемая денежная оценка для действия j)
+﻿EMV (Act_j) (Expected monetary value) - ожидаемая денежная оценка (Средняя ожидаемая денежная оценка для действия j)
 P (Event_i) (Probability) - вероятность события i
 CP (Event_i, Act_j) (Conditional Profit) - условная прибыль при событии i и действии j
 CPmax (Event_i) (Conditional Profit Max) - максимальное значение условной прибыли
@@ -9,3 +9,6 @@ WP (Event_i, Act_j) (Weighted Profit) - взвешенная прибыль пр
 COL (Event_i, Act_j) (Conditional Opportunity Loss) - условная потеря "возможности" при событии i и действии j
 WOL (Event_i, Act_j) (Weighted Opportunity Loss) - взешенная потеря "возможности" при событии i и действии j
 EOL (Act_j) (Expected Opportunity Loss) - ожидаемая потеря "возможности" при действии j
+
+
+ALTER TABLE yourTable ALTER COLUMN myID COUNTER(1,1) - reset table key
